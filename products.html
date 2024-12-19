@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden Products Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body>
+    <!--Navbar Section-->
+    <nav class="bg-green-100 p-5 flex justify-between items-center">
+        <h1 class="text-2xl cursor-pointer">GREENDEN</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 w-8 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a href = "index.html" class="hover:text-black hover:underline cursor-pointer"> Home </a>
+            </li>
+            
+            <li>
+                <a href = "#" class="hover:text-black hover:underline cursor-pointer"> Products </a>
+            </li>
+            <li>
+                <a href = "contact.html" class="hover:text-black hover:underline cursor-pointer"> Contact </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--Products Section-->
+    <section class="text-center">
+        <h1 class="mt-4 font-bold text-3xl">Our Products</h1>
+        <input type="text" class="border border-black p-1 m-2 container" placeholder="Search for a Product..." style="width: 80%;">
+    </section>
+
+    <!--Image Section Using Grid-->
+    <section class="p-4 text-center">
+
+        <div class="grid grid-cols-2 gap-3 md:grid-cols-4 gap-5">
+            <div>
+                <img src="./images/Flower Pot.png" alt="Flowers" class="inline hover:shadow-xl cursor-pointer transform hover:-translate-y-2">
+                <p>Rose Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./images/Flower Pot_01.png" alt="Flowers" class="inline hover:shadow-xl cursor-pointer transform hover:-translate-y-2" >
+                <p>Lily Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./images/Flower Pot_02.png" alt="Flowers" class="inline hover:shadow-xl cursor-pointer transform hover:-translate-y-2">
+                <p>Hibiscus Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./images/Flower Pot_03.png" alt="Flowers" class="inline hover:shadow-xl cursor-pointer transform hover:-translate-y-2">
+                <p>New Pet Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./images/Flower Pot_04.png" alt="Flowers" class="inline hover:shadow-xl cursor-pointer transform hover:-translate-y-2">
+                <p>Lily Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./images/Flower Pot_05.png" alt="Flowers" class="inline hover:shadow-xl cursor-pointer transform hover:-translate-y-2">
+                <p>Rose Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./images/Flower Pot_06.png" alt="Flowers" class="inline hover:shadow-xl cursor-pointer transform hover:-translate-y-2">
+                <p>Lily Plant</p>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./images/Bestseller_02.png" alt="Flowers" class="inline hover:shadow-xl cursor-pointer transform hover:-translate-y-2">
+                <p>Hibiscus Rose</p>
+                <p>$20</p>
+            </div>
+        </div>
+       
+    </section>
+
+    <!--Footer Section-->
+    <section class="bg-green-100 p-10 flex flex-col gap-5 mt-4">
+        <h2 class="font-bold text-3xl">Greenden</h2>
+        <p>The Standard chunk of Lorem ipsum since the 1500s is reproduced below for those interest </p>
+        <p>@ 2021 Greenday.com</p>
+    </section>
+</body>
+</html>
